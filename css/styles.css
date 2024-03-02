@@ -23,7 +23,7 @@ body {
 /* .header .btn { display: none; } */
 header {
     width: 100%;
-    background-color: rgb(21, 28, 35);
+    background-color: black;
     padding: 10px;
     color: white;
     display: flex;
@@ -41,7 +41,7 @@ header {
     margin-right: 28px;
     font-size: 38px;
     margin-left: 20px;
-    color: rgb(255, 0, 0);
+    color: #59B42D;
   }
 
   nav {
@@ -70,7 +70,7 @@ header {
   }
   nav ul li .join{
     padding: 10px 20px;
-    background-color: rgb(255, 0, 0);
+    background-color: #59B42D;
     
     font-weight: 900;
     font-size: 20px;
@@ -81,10 +81,11 @@ header {
   }
   nav li a:hover {
     
-    color: rgb(255, 0, 0);
+    color: #59B42D;
   }
   nav ul li .join:hover{
-    color: white;
+    background-color: white;
+    color: #59B42D;
   }
   
 
@@ -95,8 +96,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 30px 20px;
-    background-color: rgb(21, 28, 35); 
+    padding: 65px 20px;
+    background-color: black; 
   }
 
   .banner-text {
@@ -110,7 +111,7 @@ header {
     font-size: 35px;
   }
   .banner-text h3 span{
-    background-color: rgb(255, 0, 0);
+    background-color: #59B42D;
     padding: 5px 25px;
     border-radius: 10px;
 
@@ -122,7 +123,7 @@ header {
     font-size:  22px;
   }
   /* .banner-text .span{
-    background-color: rgb(255, 0, 0); 
+    background-color: #59B42D; 
     color: white; 
     border-radius: 10px;
     
@@ -130,7 +131,7 @@ header {
 
   .butn {
     padding: 12px 24px;
-    background-color: rgb(255, 0, 0);
+    background-color: #59B42D;
     color: white;
     text-decoration: none;
     border-radius: 8px;
@@ -141,7 +142,7 @@ header {
 
   .butn:hover {
     background-color: white;
-    color: rgb(255, 0, 0);
+    color: #59B42D;
   }
 
   .banner-image {
@@ -172,8 +173,8 @@ header {
   .about-text h3{
     font-size: 27px;
     padding: 12px 24px;
-    background-color: rgba(255, 78, 0, 0.1);
-    color: rgb(255, 0, 0);
+    background-color: #59B42D;
+    color: white;
     text-decoration: none;
     border-radius: 8px;
     width: fit-content;
@@ -206,8 +207,8 @@ header {
     
     font-size: 27px;
     padding: 12px 24px;
-    background-color: rgba(255, 78, 0, 0.1);
-    color: rgb(255, 0, 0);
+    background-color: #59B42D;
+    color: white;
     text-decoration: none;
     border-radius: 8px;
     width: fit-content;
@@ -223,8 +224,8 @@ header {
     margin-bottom: 40px;
 }
 .butn_car{
-    background-color: rgba(255, 78, 0, 0.1);
-    color: rgb(255, 0, 0);
+    background-color: #59B42D;
+    color: white;
 }
 
 
@@ -233,7 +234,7 @@ header {
 \*-----------------------------------*/
 .footer {
     width: 100%;
-    background-color: rgb(21, 28, 35);
+    background-color: black;
     color: white;
   }
   
@@ -280,7 +281,7 @@ header {
       transition: all .4s ease-in-out;
     }
     .footer .footer-content .col span.text:hover {
-        color: rgb(255, 0, 0);
+        color: #59B42D;
       }
   
   .footer .bottom-bar {
@@ -359,7 +360,7 @@ form {
   }
 
   form button {
-    background-color: rgb(255, 0, 0);
+    background-color: #59B42D;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -398,14 +399,14 @@ form {
   padding: 10px;
   /* background-color: #FAF9F6; */
   border: none;
-  border-bottom: 3px solid rgb(255, 0, 0);
+  border-bottom: 3px solid #59B42D;
   border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .aqua{
-  border-top: 3px solid rgb(255, 0, 0);
+  border-top: 3px solid #59B42D;
 }
 .card-1{
   width: 75%;
@@ -418,7 +419,7 @@ form {
   font-size: 55px;
 }
 .butn-join{
-  background-color: rgb(255, 0, 0);
+  background-color: #59B42D;
   color: white;
 }
 
@@ -437,7 +438,7 @@ table {
   width: 100%;
   margin-top: 50px;
   margin-bottom: 50px;
-  /* border: 3px solid rgb(255, 0, 0); */
+  /* border: 3px solid #59B42D; */
 }
 table thead{
   border: 1px solid rgb(0, 0, 0);
@@ -448,7 +449,7 @@ table tbody{
 table th,table td {
   padding: 10px;
   text-align: center;
-  /* border: 3px solid rgb(255, 0, 0); */
+  /* border: 3px solid #59B42D; */
 }
 
 table th {
