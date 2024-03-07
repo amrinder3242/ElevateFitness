@@ -97,7 +97,8 @@ header {
     align-items: center;
     justify-content: space-around;
     padding: 1px 20px;
-    background-color: black; 
+    background-color: black;
+    /* margin-bottom: 100px;  */
   }
 
   .banner-text {
@@ -105,6 +106,7 @@ header {
     color: white;
     text-align: center;
     line-height: 4;
+    /* margin-bottom: 200px;  */
     
   }
   .banner-text h3{
@@ -148,7 +150,7 @@ header {
   .banner-image {
     max-width: 100%;
     height: auto;
-    margin-top: 25px;
+    /* margin-top: 25px; */
   }
 
   /*-----------------------------------*\
@@ -304,7 +306,12 @@ header {
       color: white;
   }
   
+  .col span a{
+    text-decoration: none;
+    color: inherit;
+    transition: all .4s ease-in-out;
   
+  }
 /*-----------------------------------*\
   
     #JOINING FORM
@@ -432,10 +439,11 @@ form {
   #ABOUT us
 \*-----------------------------------*/ 
 .about_carousal{
-  width: 1000px;
-  height: 1000px;
+  width: 800px;
+  height: 800px;
   
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 .for_video{
   display: flex; 
