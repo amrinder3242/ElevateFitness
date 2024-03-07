@@ -422,7 +422,11 @@ form {
   background-color: #59B42D;
   color: white;
 }
-
+.para_img1{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
 
 /*-----------------------------------*\
   #ABOUT us
@@ -433,7 +437,12 @@ form {
   
   margin: 0 auto;
 }
-
+.for_video{
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  margin-bottom: 50px;
+}
 table {
   width: 100%;
   margin-top: 50px;
