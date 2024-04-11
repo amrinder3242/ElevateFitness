@@ -7,11 +7,7 @@
     <!--Font Awesome Link-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-    <!--  Google font link-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600;700;800;900&family=Rubik:wght@400;500;800&display=swap" rel="stylesheet">
-
+   
 
     <!-- Custom CSS-->
     <link rel="stylesheet" type="text/css" href="css/styles.css" media="screen"/>
@@ -23,7 +19,11 @@
     <link rel="icon" href="images/TITLE.jpg" type="image/icon type">
     <title>Welcome To Elevate Fitness</title>
   </head>
-
+  <style>
+    .dropdown-item:active,.dropdown-item:focus{
+      background-color: #59B42D;
+    }
+  </style>
   <body>
 
     <!-- HEADER -->
@@ -32,6 +32,19 @@
         <i class="fas fa-dumbbell"></i> 
         <h1>Elevate Fitness</h1>
       </div>
+      <div class="dropdown" id="mobile-nav-btn">
+        <i class="fas fa-bars" data-bs-toggle="dropdown"></i>
+        
+        <div class="dropdown-menu">
+          <a href="index.html" class="dropdown-item">Home</a>
+          
+          <a href="classes.html" class="dropdown-item">Classes</a>
+          <a href="personaltraining.html" class="dropdown-item">Personal Training</a>
+          <a href="about.html" class="dropdown-item">About Us</a></li>
+          <!-- <li><a href="/contact.html">Contact Us</a></li> -->
+          <a href="join.html" class="join dropdown-item">Join Now</a>
+        </div>
+    </div>
       <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
